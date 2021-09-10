@@ -46,3 +46,6 @@ We can bind type script values into html properties. (Like the 'disabled' proper
 
 ### Event binding
 We can use 'any' type if the type script doesn't allow Event type to read value. 
+
+### Two-way binding
+With 2 way binding, when you update the value in TS it will update the UI, and vice versa. We are using Angular's directives.

@@ -10,7 +10,7 @@ export class ServersComponent implements OnInit {
 
   isServerDisabled = true
   serverCreationStatus = 'No server was created'
-  serverName = ''
+  serverName = 'Server Name'
 
   constructor() {
     setTimeout(() => {
@@ -25,7 +25,7 @@ export class ServersComponent implements OnInit {
     this.serverCreationStatus = "Server was created"
   }
 
-  onServerText(event: KeyboardEvent) {
+  /*onServerText(event: KeyboardEvent) {
     this.serverName = (event.target as HTMLInputElement).value
-  }
+  }*/
 }

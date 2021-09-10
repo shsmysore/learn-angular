@@ -1,9 +1,14 @@
 
+<!--<input
+  type="text"
+  class="form-control"
+  (input)='onServerText($event)'>-->
 <input
   type="text"
   class="form-control"
-  (input)='onServerText($event)'>
+  [(ngModel)]="serverName">
 <p> {{ serverName }}</p>
+
 <button class="btn btn-primary"
         [disabled] = "isServerDisabled"
         (click)= "onAddServer()">Add Server</button>
