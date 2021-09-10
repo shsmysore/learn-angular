@@ -43,3 +43,6 @@ Creates a binding to type script. Anything that returns a string or that can be 
 
 ### Property binding
 We can bind type script values into html properties. (Like the 'disabled' property of the html button)
+
+### Event binding
+We can use 'any' type if the type script doesn't allow Event type to read value. 
