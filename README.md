@@ -40,3 +40,6 @@ ng g c servers
 
 ### String interpolation
 Creates a binding to type script. Anything that returns a string or that can be converted into string.
+
+### Property binding
+We can bind type script values into html properties. (Like the 'disabled' property of the html button)

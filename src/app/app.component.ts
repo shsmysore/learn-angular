@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'My-first app!!';
   name;
+  isServerDisabled = true
+  constructor() {
+    setTimeout(() => {
+      this.isServerDisabled = false
+    }, 2000)
+  }
 }

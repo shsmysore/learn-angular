@@ -14,11 +14,9 @@
       <hr>
       <input type="text" [(ngModel)] = "name">
       <p>Hello, {{ name }}</p>
-
+      <button class="btn btn-primary" [disabled] = "isServerDisabled">Add Server</button>
       <br/>
       <app-servers></app-servers>
-      <app-warning></app-warning>
-      <app-success></app-success>
     </div>
   </div>
 </div>
