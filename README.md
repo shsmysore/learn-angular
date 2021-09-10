@@ -32,3 +32,8 @@ ng new my-first-project
 
 ### Generate a component
 ng g c servers
+
+### Selector options
+- by element
+- by attribute
+- by class
