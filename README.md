@@ -37,3 +37,6 @@ ng g c servers
 - by element
 - by attribute
 - by class
+
+### String interpolation
+Creates a binding to type script. Anything that returns a string or that can be converted into string.
