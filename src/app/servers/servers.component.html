@@ -13,6 +13,6 @@
         [disabled] = "isServerDisabled"
         (click)= "onAddServer()">Add Server</button>
 
-<p>{{ serverCreationStatus }}</p>
+<p *ngIf="shouldDisplayStatusMessage">{{ serverCreationStatus }}</p>
 <app-server></app-server>
 <app-server></app-server>

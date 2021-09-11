@@ -9,6 +9,7 @@ import {Event} from "@angular/router";
 export class ServersComponent implements OnInit {
 
   isServerDisabled = true
+  shouldDisplayStatusMessage = false
   serverCreationStatus = 'No server was created'
   serverName = 'Server Name'
 
@@ -23,6 +24,7 @@ export class ServersComponent implements OnInit {
 
   onAddServer() {
     this.serverCreationStatus = "Server was created"
+    this.shouldDisplayStatusMessage = true
   }
 
   /*onServerText(event: KeyboardEvent) {

@@ -49,3 +49,9 @@ We can use 'any' type if the type script doesn't allow Event type to read value.
 
 ### Two-way binding
 With 2 way binding, when you update the value in TS it will update the UI, and vice versa. We are using Angular's directives.
+
+### Directives
+The Directives are instructions in the DOM
+
+### Structural directives
+It helps change the DOM structure. example ngIf
