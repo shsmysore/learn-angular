@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { Task2Component } from './task2/task2.component';
+import { Task3Component } from './task3/task3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Task2Component } from './task2/task2.component';
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    Task2Component
+    Task2Component,
+    Task3Component
   ],
   imports: [
     BrowserModule,

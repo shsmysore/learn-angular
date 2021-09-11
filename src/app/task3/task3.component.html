@@ -1,0 +1,19 @@
+<p>task3 works!</p>
+
+<button
+  class="btn btn-primary"
+  (click)="onButtonClick()">
+  Display details
+</button>
+
+<p
+  *ngIf="shouldDisplayPassword">
+  Secret password = tuna
+</p>
+
+<p
+  *ngFor="let number of buttonClicks; index as index"
+  [ngStyle]="{ backgroundColor: getLogBgColor(index)}"
+  [ngClass]="{ bigTextColor: index > 4}">
+  {{ number }}
+</p>

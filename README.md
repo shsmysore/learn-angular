@@ -62,4 +62,8 @@ They don't add/remove element. They only change the element they were placed on.
 ### Another structural directive example
 ngFor
 
+### Task 3
+Keep an item toggling with button. Button adds a log item with Date.
+After the 5th item, the style changes.
+
 
