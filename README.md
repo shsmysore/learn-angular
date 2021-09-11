@@ -58,3 +58,8 @@ It helps change the DOM structure. example ngIf
 
 ### Attribute directives
 They don't add/remove element. They only change the element they were placed on.
+
+### Another structural directive example
+ngFor
+
+

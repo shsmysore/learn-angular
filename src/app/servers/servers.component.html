@@ -14,5 +14,5 @@
         (click)= "onAddServer()">Add Server</button>
 
 <p *ngIf="shouldDisplayStatusMessage">{{ serverCreationStatus }}</p>
-<app-server></app-server>
-<app-server></app-server>
+
+<app-server *ngFor="let server of serverList"></app-server>
