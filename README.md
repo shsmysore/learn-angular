@@ -66,4 +66,6 @@ ngFor
 Keep an item toggling with button. Button adds a log item with Date.
 After the 5th item, the style changes.
 
+### Custom properties and events
+This is used for passed data between components. Using the Input and Output decorators.
 

@@ -9,6 +9,9 @@ import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { Task2Component } from './task2/task2.component';
 import { Task3Component } from './task3/task3.component';
+import { Task4Component } from './task4/task4.component';
+import { ServerInputComponent } from './task4/server-input/server-input.component';
+import { ServerOutputComponent } from './task4/server-output/server-output.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { Task3Component } from './task3/task3.component';
     WarningComponent,
     SuccessComponent,
     Task2Component,
-    Task3Component
+    Task3Component,
+    Task4Component,
+    ServerInputComponent,
+    ServerOutputComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<p>Add new servers or blueprints</p>
+<app-server-input (newServer)="onIncomingServer($event)" (newBlueprint)="onIncomingBlueprint($event)">
+</app-server-input>
+<hr>
+<app-server-output
+  *ngFor="let server of serverList"
+  [server]="server">
+</app-server-output>
+
+<app-server-output
+  *ngFor="let blueprintServer of blueprintList"
+  [server]="blueprintServer">
+</app-server-output>
